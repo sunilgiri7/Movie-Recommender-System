@@ -26,6 +26,7 @@ def recommend(movie):
 
 
 movies = pickle.load(open('movies.pkl','rb'))
+
 movies_list = movies['title']
 st.title("Movie Recommender System")
 Selected_movie_name = st.selectbox(
